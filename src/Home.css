@@ -1,0 +1,47 @@
+#homeFirstPage {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homeFirstPage h1 {
+    width: 60%;
+    font-size: 10vh;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #AF3838, #666666);
+    text-align: center;
+}
+
+
+#homeFirstPage p {
+    width: 60%;
+    font-size: 3vh;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #AF3838, #666666);
+    text-align: center;
+}
+
+#homeFirstPage #buttonContainer {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+
+}
+
+#homeFirstPage #buttonContainer a {
+    width: fit-content;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: #AF3838;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}

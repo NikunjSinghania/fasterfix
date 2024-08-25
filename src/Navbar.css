@@ -1,0 +1,40 @@
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+nav #navLogoContainer {
+    height: 100%;
+}
+
+nav #navLogoContainer img {
+    width: 10vw;
+}
+
+nav #navLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+nav #navLinksContainer a{
+    text-decoration: none;
+    color: #FEC3C3;
+}
+
+nav #navContactLink {
+    background-color: #ae3939;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+nav #navContactLink a{
+    color: white;
+    text-decoration: none;
+}
